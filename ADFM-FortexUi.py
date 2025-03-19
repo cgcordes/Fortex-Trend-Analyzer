@@ -11,14 +11,6 @@ import time
 import random
 from twelvedata import TDClient
 
-import streamlit as st
-import pandas as pd
-import time
-import random
-from datetime import timedelta
-import plotly.graph_objects as go
-from twelvedata import TDClient
-
 # API Configuration
 TWELVE_DATA_API_KEY = "86528afdfb424533b083d56107091e52"
 td = TDClient(apikey=TWELVE_DATA_API_KEY)
