@@ -18,6 +18,30 @@ This application fetches forex data using the Twelve Data API and displays key i
 - **Interactive Visualizations:** Uses Plotly for dynamic candlestick charts.
 - **User-Friendly Interface:** Streamlit’s sidebar allows for easy selection of currency pairs and time intervals.
 
+---
+
+## Features
+
+- **Price Chart**  
+  • Interactive Plotly candlestick chart  
+  • Overlaid 20- and 50-period simple moving averages  
+
+- **Trend Analysis**  
+  • Calculates percentage change over the last 20 periods  
+  • Classifies trend as Bullish, Bearish, or Sideways  
+  • Measures trend strength (Weak, Moderate, Strong)  
+  • Simplified RSI calculation with overbought/oversold warnings  
+
+- **Technical Indicators**  
+  • Bollinger Bands (upper, middle, lower)  
+  • Latest indicator snapshot (SMA–20, SMA–50, BB upper/lower, RSI) in a summary table  
+
+- **Raw Data & Download**  
+  • Scrollable, interactive data table of all fetched fields  
+  • One-click CSV export of the full time series  
+
+---
+
 ## Prerequisites
 
 Before running the app, ensure you have the following installed:
